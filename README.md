@@ -6,6 +6,6 @@ This source was compiled through a search on Arxiv, ACM digital library and Scop
 ### Organization
 Papers were filtered in order to collect only those that explicitly present design guidelines for conversational and voice interfaces. The guidelines were classified in two groups: design guidelines and evaluation metrics. Furthermore, for each set the catalogue lists: authors, link, paper title, collection method, list of guideline or evaluation metrics. For lengthy sets of guidelines a separate file is provided.
 
-### Authors
+### Dataset Authors
 Ludovica Piro
 
