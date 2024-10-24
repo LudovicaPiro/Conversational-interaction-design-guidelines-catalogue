@@ -1,0 +1,90 @@
+﻿Category;Metrics;Definition
+Linguistic features;positive/negative words;number of users’ use of positive/negative words to express emotions
+;length of utterances;users’ number of users’ use of words per statement
+;personal pronouns;users’ use of first- and third-person pronouns
+;term-level repetition;the proportion of terms in one utterance which were repeated from the participant's previous utterance
+;utterance-level repetition;the proportion of utterances where term-level repetition is greater than zero
+;use of concrete words;the concreteness of each entry, e.g., ”tennis” is more concrete than ”sports”
+;variation in language used;the variation in expressions and use of different words
+Prosodic features;variation in speech-based agents;the word count, variance in pitch, rate and loudness in audio interactions
+Dialogue features;dialogue/response quality;the syntactic readability and intensity of sentiments in users’ replies
+;dialogue efficiency metrics;the number of system turns required and average system reaction time to users’ requests
+;expressiveness;the quality of effectively conveying thoughts or feelings by users
+Tasks related;task fulfillment rate/effectiveness;the measure of users’ success rate in tasks undertaken during the interactions
+;system use;a mixed measure of multiple system-related metrics, e.g., types of messages, words, time taken to complete the task
+;user entry time;the amount of time users need to provide inputs to or interact verbally with the CA
+;dropout rate;the percentage of respondents who quit before the study was completed
+Algorithm;intent modeling evaluation;the accuracy of which the CA can identify the correct intents from users’ utterances
+;error rate;the rate of errors occurred during users’ interaction with the CA
+User;self-disclosure;users’ quality of responses to the CA based on their trust towards the CA
+;intimacy;users’ perceive closeness,inter-connectedness, and companionship from the CA
+;reflection;users’ self-rated frequency of reflecting on thoughts and consciousness of their inner feelings
+;impolite/aggressive behaviors;the number of occurrences of impolite phrases
+;motivation;users’ motivations or intents that drive users to interact with the CA
+;affective states;the proportion of time users spent in each affective state
+Conversation related;syntactic readability;the syntax-wise readability of conversation text between users and CA based on the Flesch-readability score
+;self-reported response quality;the perceived response quality reported by users
+;informativeness/information quality;the quality of information conveyed by the CA through text
+;conversation smoothness;the level of smoothness of the conversation between users and CAs measure by Session Evaluation Questionnaire
+;intensity of sentiments;the intensity of sentiments expressed by users calculated by TextBlob
+;instruction quality;the quality of instructions given by the CA to users
+Perception towards the CA;perceived common ground;the perceived mutual understanding between users and the CA
+;opinion of the CA as a partner;the ease of which subjects were able to interact with the CA
+;playfulness/enjoyment;the extent to which the CA can match users’ interests
+;sociability;users’ perception of the CA's social skills
+;perceived anthropomorphism;the extent to which the CA can demonstrate attribution of human characteristics or behaviors
+;perceived warmth of the AI system;the extent to which users feel the CA is good-natured and warm
+;impression;users’ feelings of the CA regarding its competence, confidence, warmth, and sincerity
+;perceived personality traits;users’ feelings of the CA in terms of openness, conscientiousness, extraversion, agreeableness, and neuroticism
+;perceived persuasiveness;users’ perception of the CA's utterances rated as bad–good, foolish–wise, negative–positive, beneficial–harmful, effective–ineffective, and convincing–unconvincing
+;perceived intimacy;users’ perceived intimacy and closeness with the CA, e.g., feeling of inter-connectedness of self and other
+;perceived naturalness;users’ agreement level to the statement that the CA's responses are natural
+;perceived safeness;users’ sense of safety when interacting with the CA
+System usability;overall usability;users’ perceived overall usability of the CA
+;perceived ease of use;the degree to which users believe that interacting with the CA would be free of effort
+;mental demand;the amount of mental or perceptual activities (e.g., thinking, deciding, calculating, remembering, looking, searching) that is required to interact with the CA
+;physical demand;the amount of physical activities (e.g., pushing, pulling, controlling, activating, etc.) that is required to interact with the CA
+;perceived task completion;the degree to which users believe to have successfully communicated and reached a mutual understanding with the CA
+;effort;the total workload associated with the tasks, considering all sources and components
+;frustration;users’ feelings of being insecure, discouraged, irritated, and annoyed versus being secure, gratified, content and complacent when interacting with the CA
+;desire to continue the interaction;the degree to which users would consider keep using this method in the future, or users’ behavioural tendencies through their desire to help and cooperate with the CA
+;user acceptance of the agent;users’ willingness to accept the CA's interaction
+;system consistency;the consistency between the behaviors and utterances of the CA
+;perceived usefulness / helpfulness;users’ own perceptions of the session's efficacy, e.g., the CA gave users good suggestions for helping them discover songs.
+;willingness to recommend;the degree to which users would recommend the CA to their friends or family for managing mental well-being and to people who have needs
+;motivation;users’ motivation or intent to interact with the CA
+User experience with the CA;user experience (UX);a mix ratings of the general experience, e.g., emotion, ease of use, usefulness, and intention to use
+;contrast of user experience;users’ perceptions of the experience without drawing explicit attention to the contrast between their expectations and their experience
+;perceived quality of the interaction;users’ overall self-rated quality of the CA, e.g., in communicating, building rapport, and task fulfillment's
+;perceived satisfaction;users’ overall ratings for CA's understandability, relevancy and efficiency
+;perceived engagement;the degree that the CA can engage the participants during the conversation, e.g., making users feel it is entertaining and interesting to engage in a dialogue with the CA
+;perceived trust;the CA's ability in providing unbiased and accurate suggestions and making users trust it
+;confidence;users’ confidence that users will like the content the CA suggests
+;perceived capability to control;users’ feeling of being in control of the conversation
+;aroused emotions;change of users’ emotions state while using the system
+;serendipity;the CA's ability in recommending things that users had not considered in the first place but turned out to be a positive and surprising discovery
+;pleasant surprise;the CA's ability in providing contents that are overall pleasantly surprising to users
+;empathy;the CA's ability to understand and share the feelings of users
+;self-reflection/self-awareness;users’ reflection on thoughts and consciousness of their inner feelings
+;self-disclose;the degree of which users feel comfortable about disclosing to the agent and express opinions openly
+;anxiety/tension;the degree of which the interaction makes users feel anxious or tense
+;comfort;the degree of which the interaction is comfortable
+;social orientation toward CAs;the desire to engage in human-like social interactions with CA, which is associated with a mental model of an agent system as being a sociable entity
+;degree of collaboration;the level of collaboration between users and the CA during interaction
+;degree of decision-making;the degree of which the CA helps with users’ decision-making
+Perceptions;overall impressions and experience;users’ perceptions of the overall experience interacting with the CA
+;perceived CA's capabilities;the CA's capability in handling simple requests and resembling human representative
+;perceived CA appearance and self-presentation;the CA's visual appearance and persona
+;perceived personality;users’ feeling for the CA in openness (intellectual curiosity, creativity), conscientiousness (neatness, perseverance, reliability, and responsibility), extraversion (sociability, activity, and assertiveness), agreeableness (friendliness, helpfulness, and cooperativeness in dealing with others) and neuroticism (stability, anxiety, and the frequency of experiencing negative affect)
+;perceived naturalness;the degree of which users feel the conversation with the CA is natural, not forced
+;reciprocative;the degree of which users feel the CA reciprocated their language or feelings
+;perceived burden;the degree of which users feel the conversation with the CA is costly in time, financially, mentally and emotionally.
+;perceived human-likeness;the CA's ability to talk like a human and its conversational skills
+;perceived effectiveness;the degree of how much the CA helps to address users’ needs
+Behaviors;engagement;the degree that the CA can engage the participants during the conversation, e.g., measured by an engagement rating between 1 (not engaging) and 5 (very engaging) in user survey
+;notice of CA's certain function;the action of the CA sending messages informing what the chatbot could do, noticing a tutorial and menu
+;efforts in learning the system;efforts users take in learning how to interact with the CA
+;self-reflection/self-awareness;users’ reflections on thoughts and consciousness of their inner feelings
+;effects on judgement;the degree that users feel the CA affected their evaluation positively, negatively or neither
+;effects on collaborations;the degree of which the CA affected users’ willingness of collaborating with the CA
+;daily practices of using the CA;participants’ daily practices of using the chatbot, e.g., ”Please briefly tell us how you used this chatbot during the past three weeks”

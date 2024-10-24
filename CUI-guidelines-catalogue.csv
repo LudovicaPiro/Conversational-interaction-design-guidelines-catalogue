@@ -1,0 +1,205 @@
+﻿Author;Link;PAPER;method;Design guidelines/heuristics;Evalutation metrics
+ Anushree Venkatesh, Chandra Khatri, Ashwin Ram, Fenfei Guo, Raefer Gabriel, Ashish Nagar, Rohit Prasad, Ming Cheng, Behnam Hedayatnia, Angeliki Metallinou, Rahul Goel, Anirudh Raju;https://www.amazon.science/publications/on-evaluating-and-comparing-conversational-agents;On Evaluating and Comparing Conversational Agents;;;"Engagement To enable an open-ended, multi-turn conversation, engagement is critical. Engagement is a measure
+of interestingness in a conversation
+Coherence
+A coherent response indicates a comprehensible and relevant response to a user’s request. A response can be deemed weakly coherent if it is somewhat related.  To capture coherence, we annotated hundreds of thousands of randomly selected interactions for incorrect, irrelevant or inappropriate responses. Using the annotations, we calculated the response error rate (RER) for each socialbot, 
+RER = n. of incoherente resp / tot. n. of utterances
+Domain Coverage
+A domain specific conversation agent may be more akin to goal-directed conversations, where the output response space is bounded. An agent which is able to interact on multiple domains can be considered more consistent with humans expectations. A conversation was classified into a particular domain based on the domain capturing the maximum number of consecutive turns on a domain in the conversation
+Conversational Depth
+To evaluate the agents on conversational depth, we used the topical model to identify the domain for each individual utterance. Conversational depth for a socialbot was calculated as the average of the number of consecutive turns on the same topical domain
+Topical Diversity/Conversational Breadth We use topical vocabulary size as a proxy for a signal on topical diversity. We also measure the distribution of each topic for a socialbot which we use to measure topic affinity for a socialbot
+CUX: Mean User Rating 
+CUX: Mean Frequent-User Rating
+it captures: Expectation, Behavior and Sentiment, Trust, Visual Cues and Physicality
+"
+Simone Borsci, Alessio Malizia, Martin Schmettow, Frank van der Velde, Gunay Tariverdiyeva, Divyaa Balaji & Alan Chamberlain;https://link.springer.com/article/10.1007/s00779-021-01582-9;The Chatbot Usability Scale: the Design and Pilot of a Usability Scale for Interaction with AI-Based Conversational Agents;"* they collect attributes of satisfaction (27 attributes)
+* review them with a questionnaire (retain 17 attributes + 3 new added)
+* focus group with expert that had to reflect on positive and negative aspect of interaction with chatbots
+
+Attributes included in the previous list were coded A, new attributes were coded N, attributes previously excluded and re-inserted were coded R";;"Attributes
+1. Ease to start a conversation: Chatbot seems able to find ways to respond appropriately even when it encounters situations or arguments it is not equipped to handle
+2. Access to chatbot Functions and location of the chatbot on the screen are visible and accessible
+3. Expectation setting Ability of chatbot to make clear its capabilities and to not create false expectations in the end-users
+4. Flexibility and communication effort chatbot seems able to manage and adapt to different conversational styles of the end-users minimising conversational efforts for the end-user.
+5. Ability to maintain a themed discussion Chatbot maintains a conversational theme once introduced and keep track of the context to understand the user’s utterances
+6. Reference to the service Chatbot seems designed to use the environment (information, options, buttons on-screen, etc.) to guide the user towards its goal
+7. Users’ privacy and security Chatbot appears to be able to protect user’s privacy and make appropriate decisions on behalf of the user.
+8. Recognition and facilitation of users’ goal and intent Chatbot seems able to recognise the user’s intent and guide the user to its goals.
+9. Relevance of information The chatbot provides relevant and appropriate information/answer to people at each stage to make them closer to their goal.
+10. Maxim of quantity The chatbot responds in an informative way without adding too much information.
+11. Resilience to failure Chatbot seems able to find ways to respond appropriately even when it encounters situations or arguments it is not equipped to handle
+12. Understandability and politeness The chatbot seems able to understand input and covey correct statements and answers without ambiguity and with acceptable manners
+13. Perceived conversational credibility The chatbot responds in a credible and informative way without adding too much information.
+14. Speed of answer The chatbot is perceived as able to respond to requests and solve issues in a timely manner
+15. Meet the neurodiverse needs Chatbot seems able to meet needs and be used by users independently form their health conditions, well-being, age, etc.
+16. Interaction Enjoyment The chatbot is perceived as enjoyable and engaging to operate with
+17. Personality Chatbot conveys a personality by providing greetings, self-introductory, empathy, information, etc."
+Qingxiao Zheng, Yiliu Tang, Yiren Liu, Weizi Liu, and Yun Huang;https://doi.org/10.1145/3491102.3501855;UX Research on Conversational Human-AI Interaction: A Literature Review of the ACM Digital Library;systematic review of metrics used in different works on chatbots;;see excel sheet named after the paper
+Raina Langevin, Ross J Lordon, Thi Avrahami, Benjamin R. Cowan, Tad Hirsch, and Gary Hsieh;https://doi.org/10.1145/3411764.3445312;Heuristic Evaluation of Conversational Agents;We first developed a set of heuristics for the design of conversational agent interfaces using prior research findings as well as our own experiences in developing these interfaces. Second, we presented these heuristics to nine experts in conversational agent design and heuristic evaluation, and incorporated their feedback. In the third phase, we evaluated our heuristics on two interfaces, a voice assistant on the Amazon Echo and an online chatbot. We compared our heuristics with Nielsen's heuristics to observe their effectiveness in identifying usability issues with conversational agents. After finding that the conversational agent heuristics performed well on the voice interface, but not the chatbot interface, we further iterated on the heuristics. Finally, in the fourth phase, we validated our heuristics on the chatbot interface by comparing them to Nielsen's heuristics.;"Heuristics
+Visibility of system status The system should always keep users informed about what is going on, through appropriate feedback within reasonable time, without overwhelming the user
+ Match between system and the real world
+The system should understand and speak the users’ language—with words, phrases and concepts familiar to the user and an appropriate voice—rather than system-oriented terms or confusing terminology. Make information appear in a natural and logical order. Include dialogue elements that create a smooth conversation through openings, mid-conversation guidance, and graceful exits.
+User control and freedom
+Users often choose system functions by mistake and will need an option to effortlessly leave the unwanted state without having to go through an extended dialogue. Support undo and redo.
+Consistency and standards
+Users should not have to wonder whether different words, options, or actions mean the same thing. Follow platform conventions for the design of visual and interaction elements. Users should also be able to receive consistent responses even if they communicate the same function in multiple ways (and modalities). Within the interaction, the system should have a consistent voice, style of language, and personality.
+Error prevention
+Even better than good error messages is a careful design of the conversation and interface to reduce the likelihood of a problem from occurring in the first place. Be prepared for pauses, conversation fillers, and interruptions, as well as dialogue failures, deadends or sidetracks. Proactively prevent or eliminate potential error-prone conditions, and check and confirm with users before they commit an action.
+Help and guidance
+The system should guide the user throughout the dialogue by clarifying system capabilities. Help features should be easy to retrieve and search, focused on the user's task, list concrete steps to be carried out, and not be too large. Make actions and options visible when appropriate.
+Flexibility and efficiency of use
+Support flexible interactions depending on the use context by providing users with the appropriate (or preferred) input and output modality and hardware. Additionally, provide accelerators, such as command abbreviations, that are unseen by novices but speed up the interactions for experts, to ensure that the system is efficient.
+Aesthetic, minimalist and engaging design
+Dialogues should not contain information which is irrelevant or rarely needed. Provide interactional elements that are necessary to engage the user and fit within the goal of the system. Interfaces should support short interactions and expand on the conversation if the user chooses.
+Help users recognize, diagnose and recover from errors
+Error messages should be expressed in plain language (no codes), precisely indicate the problem, and constructively suggest a solution.
+Context preservation
+Maintain context preservation regarding the conversation topic intra-session, and if possible inter-session. Allow the user to reference past messages for further interactions to support implicit user expectations of conversations.
+Trustworthiness
+The system should convey trustworthiness by ensuring privacy of user data, and by being transparent and truthful with the user. The system should not falsely claim to be human.";
+Caroline Nowacki, Anna Gordeeva & Anne-Hélène Lizé ;https://link.springer.com/chapter/10.1007/978-3-030-49760-6_8;Improving the Usability of Voice User Interfaces: A New Set of Ergonomic Criteria;"The present article systematically reviews and compares existing design guidelines for VUIs between each other, and to the heuristics of Nielsen (1994) and ergonomic criteria of Scapin and Bastien (1997). The end result is a new set of design guidelines adapted to VUIs based on a wide range of experiences and research, and preliminary tested by designers at frog design.
+Choice of Nielsen and Bastien and Scapin as Reference Heuristics";"1      guidance
+1.1    prompting
+1.2    immediate feedback
+2      workload
+2.1    brevity
+2.1.1  conciseness
+2.1.2  minimal actions
+2.2    information density
+3      explicit control
+3.1    explicit user actions
+3.2    user control (incl ethics & privacy)
+3.3    pro-active user confirmation
+4      adaptability
+4.1    flexibility
+4.2    users' experience level
+4.3    multiuser
+5      error management
+5.1    error proteciton
+5.2    quality of error messages
+5.3    error correction
+6      Consistency
+7      Compatibility
+7.1    short & long term memory
+7.2    environment
+9      Personality
+9.1    Identity
+9.2    Behaviour
+9.3    Language";
+Christine Murad, Heloisa Candello, and Cosmin Munteanu;https://doi.org/10.1145/3571884.3597129;What's The Talk on VUI Guidelines? A Meta-Analysis of Guidelines for Voice User Interface Design;Using thematic analysis, we present a unified and synthesized set of 14 guidelines, representing the most universally proposed principles of VUI design as captured by the 336 VUI guidelines identified in academic literature. ;"Final Synthesized Guidelines
+1. Design conversations based on the task domain of the voice interface.
+2. Personalize the user experience to each user based on context.
+3. Be transparent about system intelligence, capabilities, and constraints.
+4. Break tasks up to allow for less cognitive load and better recall
+5. Design clear and informative feedback.
+6. Design appropriately for specific user and application types.
+7. Protect the user's privacy and security throughout conversation interaction.
+8. Design conversations that map to real-world conversational norms and dialogue patterns.
+9. Make conversation consistent and efficient across the user interaction experience.
+10. Design a persona that evokes positive emotions with users.
+11. Help prevent, recognize, and recover from errors.
+12. Create diverse and accessible speech interaction.
+13. Provide open-ended prompts to establish common ground, and to request or clarify information.
+14. Provide an interactive user experience with a large amount of user control.";
+Kyoko Sugisaki and Andreas Bleiker;https://doi.org/10.1145/3404983.3405505;Usability guidelines and evaluation criteria for conversational user interfaces: a heuristic and linguistic approach;"The results show that the checkpoints can be considered comprehensive enough to cover relevant aspects to create usable interactions with CUIs. It is up to the individual designer, developer or evaluator to further operationalise the checkpoints for his/her speci c use case(s), i.e., shorten or amend the list accordingly. We did not phrase the checkpoints as requirements (“The CUI should do XYZ.”), but as questions.
+
+criteria for the checkpoints:
+1] Checkpoints should be technology-agnostic to ensure that theycan be used for a longer period in the fast-evolving  eld of CUIs.
+[2] Checkpoints should be on a similar granularity level that provides guidance and inspiration for practitioners rather than speci c requirements
+[3] Checkpoints should be clear enough to derive more concrete checkpoints, requirements and test cases, while not being too con-
+crete so that they prescribe a  x solution.
+
+After several iterations of clustering and rewriting according to these three principles, we reduced the number of checkpoints to 53.1 We then clustered and mapped these checkpoints to Nielsen’s 10 heuristics [59 ] in order to increase the understandability among UX professionals and to provide a manageable structure. ";;"major characteristics of CUIs that have an impact on how they can or should be designed and evaluated di erently than GUIs and other forms of user interfaces:
+Sequential Communication: 
+Invisible System and Discourse Model:
+Freedom of Interaction and User Initiative:
+Flexibility of Expression:
+
+checkpoints: see paper or sheet Usability guidelines and evaluation criteria for conversational user interfaces: a heuristic and linguistic approach"
+Bernhard Suhm;https://www.isca-archive.org/eurospeech_2003/suhm03_eurospeech.pdf;Towards Best Practices for Speech User Interface Design;" To facilitate the design of better speech interfaces, this paper presents a methodology to compile design guidelines for various classes of speech
+interfaces. Such guidelines enable practitioners to employ discount usability engineering methods to speech interfaces, including obtaining guidance during early stages of design, and heuristic evaluation.";"1 Keep it simple
+2 Carefully control the amount of spoken output
+3 Word options the way users think
+4 Minimize acoustic confusability of vocabulary: Minimize the number of shared syllables between prompt options
+5 Provide carefully designed feedback: (Almost) never verbatim feedback - express in terms of actions instead
+6 Abide by natural turn-taking protocol: Design prompts that encourage natural turn-taking 
+7 Coach a little at a time 
+8 Offer alternative input modalities: Offer touch-tone keypad after errors, or for input that’s sensitive to privacy
+9 Yes/no queries can be very robust: Employ yes/no queries to stabilize dialog after errors or ambiguous responses
+10 Carefully select the appropriate persona";
+ Zhuxiaona Wei, James A. Landay;https://ieeexplore.ieee.org/document/8383654;Evaluating Speech-Based Smart Devices Using New Usability Heuristics;"In adapting heuristic evaluation to SUIs, some researchers have modified Nielsen's 10 heuristics to be more applicable to the new interface style while others have extended them by adding SUI-specific heuristics. Drawing on the related work described above, we compiled a set of 17 new heuristics grouped into 5 categories: general (S1–S5); conversational style (S6–S8); guiding, teaching, and offering help (S9–S10); feedback and prompts (S11–S14); and errors (S15–S17).";;"S1: Give the agent a persona through language, sounds, and other styles.
+S2: Make the system status clear.
+S3: Speak the user’s language.
+S4: Start and stop conversations.
+S5: Pay attention to what the user said and respect the user’s context.
+S6: Use spoken language characteristics.
+S7: Make conversation a back-and-forth exchange.
+S8: Adapt agent style to who users are, how they speak, and how they are feeling.
+S9: Guide users through a conversation so they are not easily lost.
+S10: Use responses to help users discover what is possible.
+S11: Keep feedback and prompts short.
+S12: Confirm input intelligently.
+S13: Use speech-recognition system confidence to drive feedback style.
+S14: Use multimodal feedback when available.
+S15: Avoid cascading correction errors.
+S16: Use normal language in communicating errors.
+S17: Allow users to exit from errors or a mistaken conversation.
+
+see https://hci.stanford.edu/publications/2018/speech-he/sui-heuristics.html  for more details"
+"Christine Murad; Cosmin Munteanu; Benjamin R. Cowan; Leigh Clark";https://ieeexplore.ieee.org/document/8794686;Revolution or Evolution? Speech Interaction and HCI Design Guidelines;"Through a meta-analysis of speech interface design literature, we show how current GUI guidelines can be interpreted as being (indirectly) applicable to VUI design 2. We show that most of the VUI-specific (heuristic) design guidelines in existing literature are in fact closely aligned with existing GUI guidelines 3. We identify barriers in the applicability of these VUI-specific guidelines 4. We propose exploring established GUI design heuristics as a starting point for the development of new design heuristics for VUIs, and outline a proposal for such development.
+
+For each Nelsen heuristic they map themes that are challenging for VUI:
+
+Our meta-analysis revealed that some of the largest usability issues involve 1) the cognitive load required in interaction, 2) the need for users to have control over interaction and 3) the need to deal effectively with errors. These map into guidelines such as Recognition over Recall (G6), Control and Freedom (G3), and Recovering from Errors (G9). 
+
+While heuristics have been developed in the past, they have taken a more top-down approach, by collecting VUI usability issues and using them to develop usability heuristics. Therefore, these heuristics are mostly usable by speech designers. As argued before, what is needed are guidelines that are grounded in a conceptual framework that a wider range of designers can use.
+the central contribution of this paper is the argument that VUI heuristics need not be grounded in different theoretical frameworks than fundamental GUI principles.";No new guidelines, but a new mapping of already existing CUI guidelines By Suhm and Wei and Landay on top of Nielsen's principles. See paper for the table;
+Daehee Park, Euisik Kim;https://doi.org/10.1016/j.heliyon.2023.e23573;Method of interacting between humans and conversational voice agent systems;The current guidelines only offer generic information for VUI designers, as they only provide the static aspect of voice interaction rather than consider the entire conversation flow. Studies on designing voice interaction systems have shown that VUI designers and developers need more guidance. The new interaction guidelines were developed based on users’ cognitive strategy in the course of using voice agent systems. We proposed and evaluated 12 practical voice interaction design guidelines for conversational voice agent systems.;"Start the dialogue
+G1 Understand the user's intent to talk: Voice agent systems should understand the user's glances, gestures, and voice commands to the assistant.
+G2 Understand the user's emotion: Understand the emotions of the user through their voice or facial expressions.
+G3 Understand the user's context: Voice agent systems should understand the context for usage and can suggest what the user wants to know.
+Performing the task
+G4 Natural slot-filling: Some tasks need more slots. Voice agent systems should check empty slots and ask the user to fill them
+   Providing information
+G5 Right timing: Voice agent systems should present the information at the right time when the user performs a task. It should avoid interfering with the task.
+G6 Abstraction: Divide the information into smaller chunks and deliver a summary first.
+   checking user acceptance
+G7 Accepted: Voice agent systems check whether or not the user understands the information and asks if they want more.
+G8 Not accepted: Voice agent systems check whether or not the user understands the information. They should divide information into smaller chunks.
+   Attracting attention differently when the system communicates with the user proactively
+G9 High Priority: Voice agent systems use more than one modality to attract the user's attention strongly.
+Task completion
+G10 Low Priority: Voice agent systems use one modality to attract the user's attention weakly.
+G11 Express that the task is complete: Voice agent systems announce that the task is complete
+G12 Express emotions: Apologising, encouraging, or enjoying, etc.";
+Christine Murad, Cosmin Munteanu, Leigh Clark, Benjamin R. Cowan;https://dl.acm.org/doi/10.1145/3236112.3236149;Design guidelines for hands-free speech interaction;"We collected 21 papers composed of full papers published in 9 leading HCI conferences and journals. Publication venues were gathered using sources listed in Google Scholar, Thomson Reuters, and Scimago rankings.
+Only papers that primarily investigated speech input, output, and/or dialogue alongside aspects of design and usability between 1980-2018 were included. We then used the 10 design guideline categories from the previous section [categories refer to Nielsen's, Norman's and Schniderman's principles] and examined the extent to which each paper directly or indirectly aligned with any of these categories.";"Suggests to add two new dimension for CUI guidelines
+A1: Ensure Transparency/Privacy
+A2: Considering How Context Affects Speech
+Interaction:";
+Xi Yang, Marco Aurisicchio;https://doi.org/10.1145/3411764.3445445;Designing Conversational Agents: A Self-Determination Theory Approach;"The guidelines are then derived from the interview findings. The key findings demonstrate that: competence is affected by users’ knowledge of the CA capabilities and effectiveness of the conversation; autonomy is influenced by flexibility of the conversation, personalisation of the experiences, and control over user data; regarding relatedness, users still have concerns over integrating social features into CAs. The guidelines recommend how to inform users about the system capabilities, design effective and socially appropriate conversations, ";"Initially 	
+G1: Provide a personalised overview of CA capabilities.
+Help the user gain a full picture of the capabilities compared to what they already know.
+	G2: Introduce new capabilities in-context.
+Make it convenient for the user to discover and access relevant capabilities.
+G3: Reveal how well the CA can perform when introducing new capabilities.
+Help the user set accurate expectations about the CA capabilities.
+During interaction 	
+G4: Learn about the conversational context to maintain the flow of a conversation.
+Help the user have effective communication with the CA.
+G5: Present responses in a concise and informative way.
+Make it easy for the user to retrieve information.
+G6: Talk politely.
+Encourage polite and socially appropriate conversation style.
+When wrong 	
+G7: Provide an explanation regarding why the CA cannot complete a task.
+Help the user understand the current system status.
+Over time 	
+G8: Learn about user habits over time from past interactions.
+Help the user obtain tailored services from the CA.
+G9: Provide users with options to customise the commands and responses.
+Allow the user to have more control of the conversation when needed.
+G10: Provide opportunities for user data management.
+Allow the user to view and manage their personal data.";
+;;;;;
